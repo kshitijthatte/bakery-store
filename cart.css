@@ -64,6 +64,10 @@
   color: var(--green);
 }
 
+.price-details .order-btn {
+  margin-top: 1rem;
+}
+
 /* Wishlist Page styles */
 
 .cart-products .card .btn-primary + .btn-transparent {
@@ -72,6 +76,11 @@
 
 .nav-fixed-adjust > .text-center {
   padding-top: 1rem;
+}
+
+.btn-disabled {
+  cursor: not-allowed;
+  color: initial;
 }
 
 /* Media Queries */
