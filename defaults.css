@@ -1,0 +1,12 @@
+.nav-fixed-adjust {
+  margin-top: 4rem;
+}
+
+a.nav-section {
+  color: var(--white);
+}
+
+.divider {
+  border: none;
+  border-bottom: 1px solid var(--light-grey);
+}

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery Store - Cakes</title>
+    <link rel="stylesheet" href="https://iceberg-ui.netlify.app/styles.css" />
+    <link rel="stylesheet" href="/defaults.css" />
+    <link rel="stylesheet" href="productListingPage.css" />
+  </head>
+  <body>
+    <nav class="nav nav-fixed">
+      <a class="nav-section" href="/">
+        <span class="nav-title">Bakery Store</span>
+      </a>
+      <div class="nav-section nav-section-right">
+        <a class="btn btn-primary btn-sm btn-icon" href="/user.html">
+          <span class="material-icons"> person </span>
+          User
+        </a>
+        <a class="btn btn-primary btn-sm btn-icon" href="/cart.html">
+          <span class="material-icons"> shopping_cart </span>
+          Cart
+        </a>
+      </div>
+    </nav>
+
+    <main class="nav-fixed-adjust products-container">
+      <aside class="filters">
+        <div class="sticky-container">
+          <div class="aside-header text-md">
+            <span>Filters</span>
+            <button class="btn btn-transparent btn-sm">Clear all</button>
+          </div>
+          <hr class="divider" />
+          <strong class="aside-subheader text-sm">Price</strong>
+          <div class="filter-container">
+            <input type="radio" id="high-to-low" name="price" />
+            <label for="high-to-low">High to Low</label>
+          </div>
+          <div class="filter-container">
+            <input type="radio" id="high-to-low" name="price" />
+            <label for="high-to-low">High to Low</label>
+          </div>
+          <hr class="divider" />
+          <strong class="aside-subheader text-sm">Categories</strong>
+          <div class="filter-container">
+            <input
+              type="checkbox"
+              id="vanilla"
+              name="category"
+              value="vanilla"
+            />
+            <label for="vanilla">Vanilla</label>
+          </div>
+          <div class="filter-container">
+            <input
+              type="checkbox"
+              id="chocolate"
+              name="category"
+              value="chocolate"
+            />
+            <label for="chocolate">Chocolate</label>
+          </div>
+          <hr class="divider" />
+
+          <label for="rating" class="aside-subheader text-sm"
+            ><strong>Ratings 0 - 5</strong>
+          </label>
+          <input
+            type="range"
+            class="slider"
+            min="0"
+            max="5"
+            step="1"
+            list="ratings"
+          />
+          <datalist id="ratings">
+            <option value="0" label="0">0</option>
+            <option value="1" label="1">1</option>
+            <option value="2" label="2">2</option>
+            <option value="3" label="3">3</option>
+            <option value="4" label="4">4</option>
+            <option value="5" label="5">5</option>
+          </datalist>
+        </div>
+      </aside>
+      <section class="products">
+        <div class="text-md">Cakes</div>
+        <div class="grid grid-col-4">
+          <div class="card product-card">
+            <img
+              class="card-img"
+              src="https://source.unsplash.com/LDnmyOaA-ew"
+            />
+
+            <a href="/cakes/chocolatecake.html" class="card-title">
+              Chocolate Cake
+            </a>
+            <a
+              href="/cakes/chocolatecake.html"
+              class="card-description product-price text-md"
+            >
+              <strong class=""> ₹890 </strong>
+            </a>
+            <div class="card-actions">
+              <button class="btn btn-sm btn-transparent">Add to Cart</button>
+              <div class="card-actions-right">
+                <button class="btn card-icon material-icons">
+                  favorite_border
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card product-card">
+            <img
+              class="card-img"
+              src="https://source.unsplash.com/LDnmyOaA-ew"
+            />
+
+            <a href="/cakes/chocolatecake.html" class="card-title">
+              Chocolate Cake
+            </a>
+            <a
+              href="/cakes/chocolatecake.html"
+              class="card-description product-price text-md"
+            >
+              <strong class=""> ₹890 </strong>
+            </a>
+            <div class="card-actions">
+              <button class="btn btn-sm btn-transparent">Add to Cart</button>
+              <div class="card-actions-right">
+                <button class="btn card-icon material-icons">
+                  favorite_border
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card product-card">
+            <img
+              class="card-img"
+              src="https://source.unsplash.com/LDnmyOaA-ew"
+            />
+
+            <a href="/cakes/chocolatecake.html" class="card-title">
+              Chocolate Cake
+            </a>
+            <a
+              href="/cakes/chocolatecake.html"
+              class="card-description product-price text-md"
+            >
+              <strong class=""> ₹890 </strong>
+            </a>
+            <div class="card-actions">
+              <button class="btn btn-sm btn-transparent">Add to Cart</button>
+              <div class="card-actions-right">
+                <button class="btn card-icon material-icons">
+                  favorite_border
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card product-card">
+            <img
+              class="card-img"
+              src="https://source.unsplash.com/LDnmyOaA-ew"
+            />
+
+            <a href="/cakes/chocolatecake.html" class="card-title">
+              Chocolate Cake
+            </a>
+            <a
+              href="/cakes/chocolatecake.html"
+              class="card-description product-price text-md"
+            >
+              <strong class=""> ₹890 </strong>
+            </a>
+            <div class="card-actions">
+              <button class="btn btn-sm btn-transparent">Add to Cart</button>
+              <div class="card-actions-right">
+                <button class="btn card-icon material-icons">
+                  favorite_border
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card product-card">
+            <img
+              class="card-img"
+              src="https://source.unsplash.com/LDnmyOaA-ew"
+            />
+
+            <a href="/cakes/chocolatecake.html" class="card-title">
+              Chocolate Cake
+            </a>
+            <a
+              href="/cakes/chocolatecake.html"
+              class="card-description product-price text-md"
+            >
+              <strong class=""> ₹890 </strong>
+            </a>
+            <div class="card-actions">
+              <button class="btn btn-sm btn-transparent">Add to Cart</button>
+              <div class="card-actions-right">
+                <button class="btn card-icon material-icons">
+                  favorite_border
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card product-card">
+            <img
+              class="card-img"
+              src="https://source.unsplash.com/LDnmyOaA-ew"
+            />
+
+            <a href="/cakes/chocolatecake.html" class="card-title">
+              Chocolate Cake
+            </a>
+            <a
+              href="/cakes/chocolatecake.html"
+              class="card-description product-price text-md"
+            >
+              <strong class=""> ₹890 </strong>
+            </a>
+            <div class="card-actions">
+              <button class="btn btn-sm btn-transparent">Add to Cart</button>
+              <div class="card-actions-right">
+                <button class="btn card-icon material-icons">
+                  favorite_border
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card product-card">
+            <img
+              class="card-img"
+              src="https://source.unsplash.com/LDnmyOaA-ew"
+            />
+
+            <a href="/cakes/chocolatecake.html" class="card-title">
+              Chocolate Cake
+            </a>
+            <a
+              href="/cakes/chocolatecake.html"
+              class="card-description product-price text-md"
+            >
+              <strong class=""> ₹890 </strong>
+            </a>
+            <div class="card-actions">
+              <button class="btn btn-sm btn-transparent">Add to Cart</button>
+              <div class="card-actions-right">
+                <button class="btn card-icon material-icons">
+                  favorite_border
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card product-card">
+            <img
+              class="card-img"
+              src="https://source.unsplash.com/LDnmyOaA-ew"
+            />
+
+            <a href="/cakes/chocolatecake.html" class="card-title">
+              Chocolate Cake
+            </a>
+            <a
+              href="/cakes/chocolatecake.html"
+              class="card-description product-price text-md"
+            >
+              <strong class=""> ₹890 </strong>
+            </a>
+            <div class="card-actions">
+              <button class="btn btn-sm btn-transparent">Add to Cart</button>
+              <div class="card-actions-right">
+                <button class="btn card-icon material-icons">
+                  favorite_border
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
