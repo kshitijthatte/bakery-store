@@ -5,3 +5,8 @@
 a.nav-section {
   color: var(--white);
 }
+
+.divider {
+  border: none;
+  border-bottom: 1px solid var(--light-grey);
+}

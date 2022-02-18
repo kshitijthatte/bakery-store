@@ -34,11 +34,6 @@
   padding: 0.5rem 0;
 }
 
-.filters .divider {
-  border: none;
-  border-bottom: 1px solid var(--light-grey);
-}
-
 .filters .filter-container {
   padding-bottom: 0.5rem;
 }
