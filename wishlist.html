@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery Store - Wishlist</title>
+    <link rel="stylesheet" href="https://iceberg-ui.netlify.app/styles.css" />
+    <link rel="stylesheet" href="/defaults.css" />
+    <link rel="stylesheet" href="/cart.css" />
+  </head>
+  <body>
+    <nav class="nav nav-fixed">
+      <a class="nav-section" href="/">
+        <span class="nav-title">Bakery Store</span>
+      </a>
+      <div class="nav-section nav-section-right">
+        <a class="btn btn-primary btn-sm btn-icon" href="/user.html">
+          <span class="material-icons"> person </span>
+          User
+        </a>
+        <a class="btn btn-primary btn-sm btn-icon" href="/wishlist.html">
+          <span class="material-icons"> favorite </span>
+          Wishlist
+        </a>
+        <a class="btn btn-primary btn-sm btn-icon" href="/cart.html">
+          <span class="material-icons"> shopping_cart </span>
+          Cart
+        </a>
+      </div>
+    </nav>
+
+    <main class="nav-fixed-adjust">
+      <h1 class="text-center">My Wishlist (2)</h1>
+      <div class="cart-container">
+        <div class="cart-products">
+          <div class="card">
+            <div class="card-horizontal">
+              <img
+                class="card-img"
+                src="https://source.unsplash.com/LDnmyOaA-ew"
+              />
+              <div class="card-content">
+                <div class="card-title">Chocolate Cake</div>
+                <div class="card-subtitle">
+                  <strong> ₹890 </strong> <s>₹1190</s>
+                </div>
+              </div>
+            </div>
+            <div class="card-actions">
+              <button class="btn btn-sm btn-primary btn-icon">
+                <span class="material-icons"> shopping_cart </span>Add to Cart
+              </button>
+              <button class="btn btn-sm btn-transparent">Remove</button>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-horizontal">
+              <img
+                class="card-img"
+                src="https://source.unsplash.com/nIFmcMvnxbI"
+              />
+              <div class="card-content">
+                <div class="card-title">Pineapple Cake</div>
+                <div class="card-subtitle">
+                  <strong> ₹690 </strong> <s>₹1190</s>
+                </div>
+              </div>
+            </div>
+            <div class="card-actions">
+              <button class="btn btn-sm btn-primary btn-icon">
+                <span class="material-icons"> shopping_cart </span>Add to Cart
+              </button>
+              <button class="btn btn-sm btn-transparent">Remove</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
