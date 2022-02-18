@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery Store - Signup</title>
+    <link rel="stylesheet" href="https://iceberg-ui.netlify.app/styles.css" />
+    <link rel="stylesheet" href="/defaults.css" />
+    <link rel="stylesheet" href="/authentication.css" />
+  </head>
+  <body>
+    <nav class="nav nav-fixed">
+      <a class="nav-section" href="/">
+        <span class="nav-title">Bakery Store</span>
+      </a>
+      <div class="nav-section nav-section-right">
+        <a class="btn btn-primary btn-sm btn-icon" href="/user.html">
+          <span class="material-icons"> person </span>
+          User
+        </a>
+        <a class="btn btn-primary btn-sm btn-icon" href="/cart.html">
+          <span class="material-icons"> shopping_cart </span>
+          Cart
+        </a>
+      </div>
+    </nav>
+
+    <main class="nav-fixed-adjust">
+      <div class="authentication-container">
+        <div class="card input-group">
+          <div class="text-lg text-center">Login</div>
+          <div class="name-input">
+            <input type="text" class="input" placeholder="First Name" />
+            <input type="text" class="input" placeholder="Last Name" />
+          </div>
+          <input type="email" class="input" placeholder="Email" />
+          <input type="password" class="input" placeholder="New Password" />
+          <input type="password" class="input" placeholder="Confirm Password" />
+          <div class="btn btn-primary text-center">Sign Up</div>
+
+          <hr class="divider" />
+          <a class="btn outline-primary text-center" href="/login.html"
+            >Or Login Now!</a
+          >
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
