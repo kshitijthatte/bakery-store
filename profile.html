@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bakery Store - User</title>
+    <link rel="stylesheet" href="https://iceberg-ui.netlify.app/styles.css" />
+    <link rel="stylesheet" href="./css/defaults.css" />
+    <link rel="stylesheet" href="./css/profile.css" />
+  </head>
+  <body>
+    <nav class="nav nav-fixed">
+      <a class="nav-section" href="/">
+        <span class="nav-title">Bakery Store</span>
+      </a>
+      <div class="nav-section nav-section-right">
+        <a class="btn btn-primary btn-sm btn-icon" href="/user.html">
+          <span class="material-icons"> person </span>
+          User
+        </a>
+        <a class="btn btn-primary btn-sm btn-icon" href="/cart.html">
+          <span class="material-icons"> shopping_cart </span>
+          Cart
+        </a>
+      </div>
+    </nav>
+
+    <main class="nav-fixed-adjust">
+      <div class="user-card">
+        <div class="avatar-container">
+          <img
+            class="avatar"
+            src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png"
+          />
+          <div class="avatar-details">
+            <div class="avatar-subtitle">Hi,</div>
+            <div class="avatar-title">Jhon Doe</div>
+          </div>
+        </div>
+        <div class="user-card-details">
+          <div class="user-card-title">
+            <div class="text-md">Personal Details</div>
+            <button class="btn btn-transparent btn-sm">Edit</button>
+          </div>
+          <div class="detail">
+            <div class="text-xs">Name</div>
+            <div class="text-sm">Jhon Doe</div>
+          </div>
+          <div class="detail">
+            <div class="text-xs">Email</div>
+            <div class="text-sm">jhondoe@tmail.com</div>
+          </div>
+          <div class="detail">
+            <div class="text-xs">Password</div>
+            <div class="text-sm">********</div>
+          </div>
+        </div>
+        <div class="user-card-details">
+          <div class="user-card-title">
+            <div class="text-md">Previous Scores</div>
+            <button class="btn btn-transparent btn-sm">View</button>
+          </div>
+        </div>
+        <button class="btn btn-primary btn-sm">Sign Out</button>
+      </div>
+    </main>
+  </body>
+</html>
